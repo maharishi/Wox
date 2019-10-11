@@ -1,0 +1,12 @@
+﻿{
+  "ID": "8C9F9B0468F5445EBC3A71F83335DBD3", //Plugin ID，32 bit UUID
+  "ActionKeyword": "ml", //Plugin default action keyword
+  "Name": "MLC", //Plugin name
+  "Description": "Merrill Lynch Capabilities", //Plugin description
+  "Author": "maharishi", //Plugin Author
+  "Version": "1.0.0", //Plugin version，must be x.x.x format
+  "Language": "csharp", //Plugin language，we support csharp,python and executable now
+  "Website": "http://www.getwox.com", //Plugin website or author website
+  "IcoPath": "Images\\capabilities.png", //Plugin icon, relative path to the pluign folder
+  "ExecuteFileName": "Wox.Plugin.MLConsole.dll" //Execution entry. Dll name for c# plugin, and python file for python plugin
+}

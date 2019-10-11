@@ -1,0 +1,18 @@
+Title,SubTitle,Ref,SearchAhead
+MoneyMovement,Movement of Asset,,true
+Trade,Trading on Exchange,,true
+Cash,Moving Cash,MoneyMovement,false
+Check,Sending Check,MoneyMovement,false
+Wires,Moving via Wires,MoneyMovement,false
+TOA,Transfer Of Asset,MoneyMovement,false
+SecurityTransfer,Transfer of Securites,MoneyMovement,false
+Equity,Stocks Transaction,Trade,true
+IPO,Stocks Transaction,Equity,false
+Secondary Market,Stocks Transaction,Equity,false
+MutualFunds,Mutual Funds Transaction,Trade,false
+Derivatives,Options & Future Transactions,Trade,true
+Futures,Options & Future Transactions,Derivatives,false
+Options,Options & Future Transactions,Derivatives,false
+Bonds,Bonds Transaction,Trade,true
+Long Term Bond,Bonds Transaction,Bonds,false
+Short Term Bond,Bonds Transaction,Bonds,false
